@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+  <label>Patient's Name:</label> 
+  <br>
+  <input type="text" id="name">
+  <br>
+  <label> Patient's ID:</label> 
+  <br>
+  <input type="text" id="ref">
+  <br>
+  
+<label for="level">Choose the level of emergence:</label>
+  <select id="emer" required>
+    <option value="red" selected>Now</option>
+    <option value="pink">Within 10 Minutes</option>
+    <option value="yellow">Within 30 Minutes</option>
+    <option value="green" > Within 1 Hour</option>
+    <option value="white">Within 2 Hour</option>
+  </select>
+
+<br>    
+<label>Choose the level of Patient Acuity for Interfacility Transfer:</label>
+  <select id="acuity" required>
+  <option value="U" selected>U:Unstable</option>
+  <option value="H">H:Stable with High risk of deterioration </option>
+  <option value="L">L:Stable with Low risk of deterioration </option>
+  <option value="N">N:Stable with No risk of deterioration </option>
+  </select>
+<br>
+<a href='routeselection.html'><button onclick="senddata()">Submit</button> </a>
+
+<script>
+function senddata() 
+{
+  alert("Patient Transportation Request has been sent.")
+
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+var t = [ {name: "A", Position_X: 2, Position Y: 1, Capacity: 20}, ]
+t.push(name: "B", Position_X: 8, Position Y: 7, Capacity: 12)
+t.push(name: "C", Position_X: -5, Position Y: -7, Capacity: 34)
+t.push(name: "D", Position_X: 5.5, Position Y: -6, Capacity: 56)
+t.push(name: "E", Position_X: 5, Position Y: 5, Capacity: 23)
+t.push(name: "F", Position_X: 7, Position Y: 0.5, Capacity: 12)
+t.push(name: "G", Position_X: -6, Position Y: -5, Capacity: 43)
+t.push(name: "H", Position_X: -3, Position Y: -5, Capacity: 62)
+t.push(name: "I", Position_X: -2, Position Y: 1.5, Capacity: 15)
+t.push(name: "J", Position_X: 3, Position Y: -2, Capacity: 21)
+t.push(name: "K", Position_X: -4, Position Y: 2, Capacity: 19)
+t.push(name: "L", Position_X: 1, Position Y: 9, Capacity: 3)
+t.push(name: "M", Position_X: 1.5, Position Y:-8, Capacity: 15)
+t.push(name: "N", Position_X: 6 Position Y: 3, Capacity: 27)
+t.push(name: "O", Position_X: -8 Position Y: -2, Capacity: 25)
+
