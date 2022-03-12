@@ -1,3 +1,4 @@
+#shortest route
 import math
 
 hos = {'A':[[2, 1], 20],
@@ -39,3 +40,15 @@ sort_route = sorted(route.items(), key=lambda x: x[1])
 print("Referral Hospitals and distances: ")
 for i in sort_route:
 	print(f'{i[0]}, {i[1]}')
+
+print(f'total: {len(sort_route)} from {len(origi_hos)}')
+
+#selection (in case just 1 choice)
+s = input("choose: ")
+for m, n in hos.items():
+    if s == m:
+        n[1]-=1
+        hos[here][1]+=1
+
+'''check capacity apdate
+print(hos)'''
